@@ -1,0 +1,34 @@
+// Specific CSS for your home-page
+$gray: #047d3e; // Defining a variable
+$spacer: 8px;
+
+body {
+  background: $gray; // Using this variable
+}
+
+p {
+  padding: $spacer ($spacer * 3);
+}
+
+.banner {
+  background: red;
+
+  h1 {
+    font-size: 50px;
+    color: greenyellow;
+    // WHAT ELSE ?!
+    &:hover {
+      color: orange;
+    }
+    
+  }
+
+}
+
+a {
+  color: grey;
+
+  &:hover {
+    color: black;
+  }
+}
